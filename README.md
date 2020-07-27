@@ -12,3 +12,5 @@ This game provides you features of scoreboard. This is score refers to the dista
 
 ## Implementation strategy
 This game is made with pygame and provides the more functionality in future like changing boats, new colors, new themes, new levels, new appearance, sounds, and more obstacles. We also can develop artificial intelligence for Obstacles and functionality in boats there is new levels, and new UI for better experience.
+
+*thank you*
