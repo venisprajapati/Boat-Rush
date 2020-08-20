@@ -20,14 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4b62260-0155-48c0-92d2-e65a27fb57f9" name="Default Changelist" comment="initialize pygame # 1.">
-      <change afterPath="$PROJECT_DIR$/anchor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ferry-boat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ferryboat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sailboat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ship.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wave0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wave1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/water.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wave11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wave12.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -58,10 +53,11 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Freecodecamp.org/Pygame/space-ship" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Python.water">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Boat-Rush" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.water" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.water" />
       </list>
     </recent_temporary>
   </component>
@@ -161,42 +157,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="initialize pygame # 1." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="910" y="189" key="FileChooserDialogImpl" timestamp="1596640425431">
+    <state x="910" y="189" key="FileChooserDialogImpl" timestamp="1597738840087">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="910" y="189" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596640425431" />
-    <state width="1515" height="261" key="GridCell.Tab.0.bottom" timestamp="1597682540442">
+    <state x="910" y="189" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597738840087" />
+    <state width="1515" height="211" key="GridCell.Tab.0.bottom" timestamp="1597915959465">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597682540442" />
-    <state width="1515" height="261" key="GridCell.Tab.0.center" timestamp="1597682540442">
+    <state width="1515" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597915959465" />
+    <state width="1515" height="211" key="GridCell.Tab.0.center" timestamp="1597915959465">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597682540442" />
-    <state width="1515" height="261" key="GridCell.Tab.0.left" timestamp="1597682540442">
+    <state width="1515" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597915959465" />
+    <state width="1515" height="211" key="GridCell.Tab.0.left" timestamp="1597915959465">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597682540442" />
-    <state width="1515" height="261" key="GridCell.Tab.0.right" timestamp="1597682540442">
+    <state width="1515" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597915959465" />
+    <state width="1515" height="211" key="GridCell.Tab.0.right" timestamp="1597915959465">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597682540442" />
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1597682540443">
+    <state width="1515" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597915959465" />
+    <state width="1515" height="286" key="GridCell.Tab.1.bottom" timestamp="1597826853051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597682540443" />
-    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1597682540443">
+    <state width="1515" height="286" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597826853051" />
+    <state width="1515" height="286" key="GridCell.Tab.1.center" timestamp="1597826853051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597682540443" />
-    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1597682540443">
+    <state width="1515" height="286" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597826853051" />
+    <state width="1515" height="286" key="GridCell.Tab.1.left" timestamp="1597826853051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597682540443" />
-    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1597682540443">
+    <state width="1515" height="286" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597826853051" />
+    <state width="1515" height="286" key="GridCell.Tab.1.right" timestamp="1597826853051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597682540443" />
+    <state width="1515" height="286" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597826853051" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596994649108">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -205,5 +201,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1596993207936" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1597851326283">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597851326283" />
   </component>
 </project>
