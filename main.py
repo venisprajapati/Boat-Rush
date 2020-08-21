@@ -9,7 +9,7 @@ screen = pygame.display.set_mode((764, 732))  # ( width, height )
 
 # Title And Logo
 pygame.display.set_caption("Boat Rush")  # display caption
-icon = pygame.image.load('ferryboat.png')
+icon = pygame.image.load('boat_logo.png')
 pygame.display.set_icon(icon)
 
 # Boat

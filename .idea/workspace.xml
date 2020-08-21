@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b62260-0155-48c0-92d2-e65a27fb57f9" name="Default Changelist" comment="updated water in pygame boat-rush # 1.">
-      <change afterPath="$PROJECT_DIR$/cargo_ship_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_boat_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a4b62260-0155-48c0-92d2-e65a27fb57f9" name="Default Changelist" comment="updated test boat in pygame boat-rush # 2.">
+      <change afterPath="$PROJECT_DIR$/boat_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ferry_boat_logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/water.py" beforeDir="false" afterPath="$PROJECT_DIR$/water.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
