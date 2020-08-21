@@ -5,12 +5,15 @@ from water import Water
 pygame.init()
 
 # Screen set mode
-screen = pygame.display.set_mode((764, 664))  # ( width, height )
+screen = pygame.display.set_mode((764, 732))  # ( width, height )
 
 # Title And Logo
 pygame.display.set_caption("Boat Rush")  # display caption
 icon = pygame.image.load('ferryboat.png')
 pygame.display.set_icon(icon)
+
+# Boat
+boat_img = pygame.image.load('cargo_ship_1.png')
 
 # defining water class
 w1 = Water()
@@ -38,5 +41,8 @@ while running:  # running infinite while loop
 
     # Really water is moving
     moving_water()
+    
+    # Boat
+    screen.blit(boat_img, (355, 475))
 
     pygame.display.update()  # update screen, if something new is added

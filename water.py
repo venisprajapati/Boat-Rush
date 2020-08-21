@@ -8,7 +8,7 @@ class Water:
 
         # Waves Formation
         # self.W_wave_img_format = np.random.randint(0, 2, (14, 14))
-        self.wave_len = 15
+        self.wave_len = 16
         self.wave_wid = 14
         self.wave_diff_X = 64
         self.wave_diff_Y = 50
