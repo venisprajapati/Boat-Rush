@@ -15,11 +15,13 @@ pygame.display.set_icon(icon)
 # Boat
 boat_img = pygame.image.load('cargo_ship_1.png')
 boat_X = 355
+boat_Y = 505
 boat_X_change = 0
+boat_Y_change = 0
 
 
 def boat_move(boat_X):
-    screen.blit(boat_img, (boat_X, 505))
+    screen.blit(boat_img, (boat_X, boat_Y))
 
 
 # defining water class
@@ -54,26 +56,41 @@ while running:  # running infinite while loop
     moving_water()
 
     # Boat
-    # Boat moving
+    # Boat moving X
     if event.type == pygame.KEYDOWN:
         if event.key == pygame.K_LEFT:
-            boat_X_change = -5.5
+            boat_X_change = -6.4
         elif event.key == pygame.K_RIGHT:
-            boat_X_change = 5.5
+            boat_X_change = 6.4
+    # Boat moving Y
+    if event.type == pygame.KEYDOWN:
+        if event.key == pygame.K_UP:
+            boat_Y_change = -6.4
+        elif event.key == pygame.K_DOWN:
+            boat_Y_change = 6.4
 
     # update boat
     boat_X += boat_X_change
+    boat_Y += boat_Y_change
 
-    # boundaries
+    # boundaries X
     if boat_X <= 0:
         boat_X = 0
     elif boat_X >= 701:
         boat_X = 701
+    # boundaries Y
+    if boat_Y <= 100:
+        boat_Y = 100
+    elif boat_Y >= 532:
+        boat_Y = 532
 
     # key is released
     if event.type == pygame.KEYUP:
         if event.key == pygame.K_RIGHT or event.key == pygame.K_LEFT:
             boat_X_change = 0
+    if event.type == pygame.KEYUP:
+        if event.key == pygame.K_UP or event.key == pygame.K_DOWN:
+            boat_Y_change = 0
 
     boat_move(boat_X)
 
