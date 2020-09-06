@@ -1,5 +1,8 @@
 import pygame
 from water import Water
+from objects import objects
+
+# Game heading and initializing section
 
 # Initialize Pygame
 pygame.init()
@@ -11,6 +14,8 @@ screen = pygame.display.set_mode((764, 732))  # ( width, height )
 pygame.display.set_caption("Boat Rush")  # display caption
 icon = pygame.image.load('boat_logo.png')
 pygame.display.set_icon(icon)
+
+# Boat section
 
 # Boat
 boat_img = pygame.image.load('cargo_ship_1.png')
@@ -35,6 +40,20 @@ def moving_water():
             screen.blit(w1.W_wave_img[i][j], (w1.W_wave_X[i][j], w1.W_wave_Y[i][j]))
             w1.wave_move()
     # pygame.display.update()
+
+
+# Object Section
+
+# Objects making
+ob1 = objects()
+
+
+# object moving function
+def objects_move():
+    for j in range(ob1.object_s):
+        screen.blit(ob1.object_img[j], (ob1.object_X[0][j], ob1.object_Y[0][j]))
+        ob1.object_movement()
+        # print(ob1.object_Y)
 
 
 FPS = 60  # frames per second setting
@@ -79,8 +98,8 @@ while running:  # running infinite while loop
     elif boat_X >= 701:
         boat_X = 701
     # boundaries Y
-    if boat_Y <= 100:
-        boat_Y = 100
+    if boat_Y <= 300:
+        boat_Y = 300
     elif boat_Y >= 532:
         boat_Y = 532
 
@@ -91,6 +110,9 @@ while running:  # running infinite while loop
     if event.type == pygame.KEYUP:
         if event.key == pygame.K_UP or event.key == pygame.K_DOWN:
             boat_Y_change = 0
+
+    # ob1.object_movement()
+    objects_move()
 
     boat_move(boat_X)
 
