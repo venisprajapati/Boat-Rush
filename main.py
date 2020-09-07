@@ -1,4 +1,5 @@
 import pygame
+import time
 from water import Water
 from objects import objects
 
@@ -62,6 +63,26 @@ def objects_move():
         # print(ob1.object_Y)
 
 
+# Timer Font view
+clock = pygame.time.Clock()
+time_font = pygame.font.Font('freesansbold.ttf', 28)
+
+
+# timer_text = time_font.render(clock, True, (34, 139, 34))
+
+
+# Timer function
+def timer_fun():
+    ticks = pygame.time.get_ticks()
+    millis = int(ticks % 1000 / 10)
+    seconds = int(ticks / 1000 % 60)
+    minutes = int(ticks / 60000 % 24)
+    out = '{minutes:1d}:{seconds:02d}:{millis}'.format(minutes=minutes, millis=millis, seconds=seconds)
+    # out = '{seconds:02d}:{millis:01d}'.format(millis=millis, seconds=seconds)
+    timer_text = time_font.render(out, True, (0, 0, 128))  # 0, 51, 102
+    screen.blit(timer_text, (10, 10))
+
+
 FPS = 60  # frames per second setting
 fpsClock = pygame.time.Clock()
 
@@ -120,6 +141,10 @@ while running:  # running infinite while loop
     # ob1.object_movement()
     objects_move()
 
+    # Shows the time
+    timer_fun()
+
+    # Boat moving function
     boat_move(boat_X)
 
     pygame.display.update()  # update screen, if something new is added

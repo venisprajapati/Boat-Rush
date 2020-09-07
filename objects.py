@@ -8,23 +8,23 @@ class objects:
     def __init__(self):
 
         # Shark is here
-        self.shark_s = 4
+        self.shark_s = 3
         self.shark_img = []
         self.shark_X = (np.random.choice(range(0, 8), size=(1, self.shark_s), replace=False)).astype('f') * 100
         self.shark_Y = (np.random.randint(-2, 3, (1, self.shark_s))).astype('f') * 150
-        self.shark_X_speed = 0.2
-        self.shark_Y_speed = 0.22
+        self.shark_X_speed = 0.22
+        self.shark_Y_speed = 0.25
         for i in range(self.shark_s):
             self.shark_img.append(pygame.image.load('shark_1.png'))
 
         # Object Formation
-        self.object_s = 5
+        self.object_s = 3
         self.object_img = []
         # self.object_img_format = np.random.randint(0, self.object_s, (1, self.object_s))
         self.object_X = (np.random.choice(range(0, 7), size=(1, self.object_s), replace=False)).astype('f') * 100
         self.object_Y = (np.random.randint(-3, 2, (1, self.object_s))).astype('f') * 150
         # self.object_X_speed = []
-        self.object_Y_speed = 0.12
+        self.object_Y_speed = 0.18
 
         # Image list for objects
         self.object_images = []
@@ -42,7 +42,7 @@ class objects:
         for j in range(self.object_s):
             if self.object_Y[0][j] >= 764:
                 self.object_img[j] = random.choice(self.object_images)
-                self.object_X[0][j] = float(random.randint(0, 7)) * 100
+                self.object_X[0][j] = float(random.randint(1, 7)) * 100
                 self.object_Y[0][j] = float(random.randint(-3, 0)) * 150
             else:
                 self.object_Y += self.object_Y_speed
