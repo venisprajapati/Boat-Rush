@@ -50,6 +50,12 @@ ob1 = objects()
 
 # object moving function
 def objects_move():
+    # Sharks
+    for i in range(ob1.shark_s):
+        screen.blit(ob1.shark_img[i], (ob1.shark_X[0][i], ob1.shark_Y[0][i]))
+        ob1.shark_movement()
+
+    # Objects
     for j in range(ob1.object_s):
         screen.blit(ob1.object_img[j], (ob1.object_X[0][j], ob1.object_Y[0][j]))
         ob1.object_movement()
