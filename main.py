@@ -67,24 +67,49 @@ def objects_move():
 clock = pygame.time.Clock()
 time_font = pygame.font.Font('freesansbold.ttf', 28)
 
-
 # timer_text = time_font.render(clock, True, (34, 139, 34))
 
 
 # Timer function
-def timer_fun():
+global final_time
+final_time = 'None'
+
+
+def timer_fun(game_run):
     ticks = pygame.time.get_ticks()
     millis = int(ticks % 1000 / 10)
     seconds = int(ticks / 1000 % 60)
     minutes = int(ticks / 60000 % 24)
     out = '{minutes:1d}:{seconds:02d}:{millis}'.format(minutes=minutes, millis=millis, seconds=seconds)
     # out = '{seconds:02d}:{millis:01d}'.format(millis=millis, seconds=seconds)
-    timer_text = time_font.render(out, True, (0, 0, 128))  # 0, 51, 102
-    screen.blit(timer_text, (10, 10))
+    if game_run:
+        timer_text = time_font.render(out, True, (255, 255, 255))  # 0, 51, 102
+        screen.blit(timer_text, (10, 10))
+    else:
+        if final_time == 'None':
+            # print(out)
+            return out
+
+
+# Game Over
+# Game over font
+game_over_font = pygame.font.Font('freesansbold.ttf', 45)
+final_time_font = pygame.font.Font('freesansbold.ttf', 22)
+
+
+# Game over Function
+def game_over():
+    game_over_text = game_over_font.render('Game Over', True, (0, 0, 0))
+    screen.blit(game_over_text, (250, 250))
+    final_time_text = final_time_font.render(final_time, True, (0, 0, 0))
+    screen.blit(final_time_text, (350, 350))
 
 
 FPS = 60  # frames per second setting
 fpsClock = pygame.time.Clock()
+
+# Game is running or not
+game_run = True
 
 # Game Loop.
 running = True
@@ -100,6 +125,23 @@ while running:  # running infinite while loop
 
     # Really water is moving
     moving_water()
+
+    if game_run:
+
+        if ob1.is_collision(boat_X, boat_Y):
+            game_run = False
+
+        # Moving objects or shark
+        objects_move()
+
+        # Shows the time
+        timer_fun(game_run)
+        # print(timer_fun(game_run))
+    else:
+        if final_time == 'None':
+            final_time = str(timer_fun(game_run))
+        game_over()
+        # print(final_time)
 
     # Boat
     # Boat moving X
@@ -137,12 +179,6 @@ while running:  # running infinite while loop
     if event.type == pygame.KEYUP:
         if event.key == pygame.K_UP or event.key == pygame.K_DOWN:
             boat_Y_change = 0
-
-    # ob1.object_movement()
-    objects_move()
-
-    # Shows the time
-    timer_fun()
 
     # Boat moving function
     boat_move(boat_X)

@@ -3,6 +3,9 @@ import numpy as np
 import random
 
 
+# Learning outcome: never use return False if you don't want to break program.
+
+
 class objects:
 
     def __init__(self):
@@ -38,6 +41,44 @@ class objects:
             self.object_img.append(random.choice(self.object_images))
             # self.object_X_speed.append(0)
 
+    def is_collision(self, boat_x, boat_y):
+        for i in range(self.shark_s):
+            if self.shark_Y[0][i] >= 0:
+                if abs(int(self.shark_X[0][i]) - int(boat_x)) <= 42 and abs(int(self.shark_Y[0][i]) - int(boat_y)) <= 120:
+                    return True
+        for j in range(self.object_s):
+            if self.object_Y[0][j] >= 0:
+                # if int(abs(self.object_X[0][j] - int(boat_x))) <= 52 and int(abs(self.object_Y[0][j] - int(boat_y))) <= 102:
+                #     return True
+                if str(self.object_img[j]) == str(pygame.image.load('boat_1.png')):
+                    if abs(int(self.object_X[0][j]) - int(boat_x)) <= 52 and abs(
+                            int(self.object_Y[0][j]) - int(boat_y)) <= 142:
+                        # print(self.object_img[j], pygame.image.load('boat_1.png'))
+                        return True
+                    # else:
+                    #     return False
+                if str(self.object_img[j]) == str(pygame.image.load('boat_2.png')):
+                    if abs(int(self.object_X[0][j]) - int(boat_x)) <= 48 and abs(
+                            int(self.object_Y[0][j]) - int(boat_y)) <= 125:
+                        # print(self.object_img[j], pygame.image.load('boat_2.png'))
+                        return True
+                    # else:
+                    #     return False
+                if str(self.object_img[j]) == str(pygame.image.load('rip_00.png')):
+                    if abs(int(self.object_X[0][j]) - int(boat_x)) <= 103 and abs(
+                            int(self.object_Y[0][j]) - int(boat_y)) <= 100:
+                        # print(self.object_img[j], pygame.image.load('rip_00.png'))
+                        return True
+                    # else:
+                    #     return False
+                if str(self.object_img[j]) == str(pygame.image.load('buoy_1.png')):
+                    if abs(int(self.object_X[0][j]) - int(boat_x)) <= 56 and abs(
+                            int(self.object_Y[0][j]) - int(boat_y)) <= 101:
+                        # print(self.object_img[j], pygame.image.load('buoy_1.png'))
+                        return True
+                    # else:
+                    #     return False
+
     def object_movement(self):
         for j in range(self.object_s):
             if self.object_Y[0][j] >= 764:
@@ -47,7 +88,7 @@ class objects:
             else:
                 self.object_Y += self.object_Y_speed
                 # self.object_X -= self.object_X_speed
-        # print(self.object_Y)
+        # print(self.object_Y)-
 
     def shark_movement(self):
         # self.shark_X -= self.shark_X_speed

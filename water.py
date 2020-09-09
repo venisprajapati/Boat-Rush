@@ -21,7 +21,7 @@ class Water:
         for i in range(self.wave_len):
             self.W_wave_img_X = []
             for j in range(self.wave_wid):
-                self.W_wave_img_X.append(pygame.image.load('new_wave11.png'))
+                self.W_wave_img_X.append(pygame.image.load('new_wave1.png'))
             self.W_wave_img.append(self.W_wave_img_X)
 
         self.wave_tmp_X = np.arange(-self.wave_diff_X, (self.wave_wid - 1) * self.wave_diff_X, self.wave_diff_X)
