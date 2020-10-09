@@ -37,5 +37,15 @@ Then open project in your pycharm and run with python interpreter in that.
 User have to run main.py file.
 Virtual environment is not required here. :)
 
+## Screen-shots
+
+Game run - 1
+    ![](https://github.com/venisprajapati/Boat-Rush/blob/master/Screen-shots/game-1.PNG?raw=true)
+
+Game run - 2
+    ![](https://github.com/venisprajapati/Boat-Rush/blob/master/Screen-shots/game-2.png?raw=true)
+
+Game over
+    ![](https://github.com/venisprajapati/Boat-Rush/blob/master/Screen-shots/game-over-1.PNG?raw=true)
 
 *thank you*

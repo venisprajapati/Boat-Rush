@@ -22,17 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b62260-0155-48c0-92d2-e65a27fb57f9" name="Default Changelist" comment="updated the changing of sea color in pygame boat-rush # 11.">
-      <change afterPath="$PROJECT_DIR$/Screen-shots/game-1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screen-shots/game-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screen-shots/game-over-1.PNG" afterDir="false" />
+    <list default="true" id="a4b62260-0155-48c0-92d2-e65a27fb57f9" name="Default Changelist" comment="updated the Screen-shots and README.md in pygame boat-rush # 12.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anchorLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shark.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_boat_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wave12.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602257462514</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updated the Screen-shots and README.md in pygame boat-rush # 12.">
+      <created>1602265118172</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602265118172</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -311,7 +310,8 @@
     <MESSAGE value="updated the collision function and algo. in pygame boat-rush # 9." />
     <MESSAGE value="updated the speed of objects and levels in pygame boat-rush # 10." />
     <MESSAGE value="updated the changing of sea color in pygame boat-rush # 11." />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the changing of sea color in pygame boat-rush # 11." />
+    <MESSAGE value="updated the Screen-shots and README.md in pygame boat-rush # 12." />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the Screen-shots and README.md in pygame boat-rush # 12." />
   </component>
   <component name="WindowStateProjectService">
     <state x="508" y="236" key="#Notifications" timestamp="1600453077610">
@@ -362,10 +362,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="70" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601795105421" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602257464153">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602265122641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602257464153" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602265122641" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600452925360">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
