@@ -37,6 +37,9 @@ Then open project in your pycharm and run with python interpreter in that.
 User have to run main.py file.
 Virtual environment is not required here. :)
 
+### Another projects
+<a href = "https://github.com/venisprajapati/space-ship" > Space-ship game </a>
+
 ## Screen-shots
 
 Game run - 1
