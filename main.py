@@ -1,5 +1,4 @@
 import pygame
-import time
 from water import Water
 from objects import objects
 
@@ -83,8 +82,8 @@ def objects_move():
     for j in range(ob1.object_s):
         screen.blit(ob1.object_img[j], (ob1.object_X[0][j], ob1.object_Y[0][j]))
         ob1.object_movement(status)
-        speed_text = speed_font.render(str(ob1.object_Y_speed * 100).format() + " knots", True, (0, 38, 0))
-        screen.blit(speed_text, (592, 10))
+        speed_text = speed_font.render(str(int(ob1.object_Y_speed * 100)).format() + " knots", True, (0, 38, 0))
+        screen.blit(speed_text, (612, 10))
         # print(ob1.object_Y)
 
     # Levels
@@ -147,10 +146,18 @@ game_run = True
 
 # Game Loop.
 running = True
+temp_time = 0
+temp_color = 0
 while running:  # running infinite while loop
 
     # Display screen (above everything)
-    screen.fill((51, 167, 220))  # (R,G,B) values (59, 179, 208) , (0, 183, 229) , (100, 211, 219)
+    if temp_time > 100:
+        temp_time = 0
+        temp_color += 5
+    if temp_color + 51 <= 250:
+        screen.fill((51 + temp_color, 167, 220))  # (R,G,B) values (59, 179, 208) , (0, 183, 229) , (100, 211, 219)
+    else:
+        screen.fill((255, 167, 220))  # Stop changing of color.
 
     # break for close
     for event in pygame.event.get():  # see all the events happening in game window
@@ -217,6 +224,9 @@ while running:  # running infinite while loop
 
     # Boat moving function
     boat_move(boat_X)
+
+    # Screen fill method
+    temp_time += 1
 
     pygame.display.update()  # update screen, if something new is added
     fpsClock.tick(FPS)  # Game frame updates as per rate of FPS

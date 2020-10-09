@@ -22,11 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b62260-0155-48c0-92d2-e65a27fb57f9" name="Default Changelist" comment="updated the collision function and algo. in pygame boat-rush # 9.">
+    <list default="true" id="a4b62260-0155-48c0-92d2-e65a27fb57f9" name="Default Changelist" comment="updated the speed of objects and levels in pygame boat-rush # 10.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/objects.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +55,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Freecodecamp.org/Pygame/space-ship" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Freecodecamp.org/Pygame/Online-Chess-Game-master" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -149,9 +147,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.water" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.objects" />
-        <item itemvalue="Python.water" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599670751700</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="updated the speed of objects and levels in pygame boat-rush # 10.">
+      <created>1600453044321</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600453044321</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -289,33 +294,38 @@
     <MESSAGE value="updated object and shark's motion of obstacles in pygame boat-rush # 7." />
     <MESSAGE value="updated timer and tick watch in pygame boat-rush # 8." />
     <MESSAGE value="updated the collision function and algo. in pygame boat-rush # 9." />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the collision function and algo. in pygame boat-rush # 9." />
+    <MESSAGE value="updated the speed of objects and levels in pygame boat-rush # 10." />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the speed of objects and levels in pygame boat-rush # 10." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="508" y="236" key="#Notifications" timestamp="1600453077610">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="508" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1600453077610" />
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600449217256">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1600449217256" />
-    <state x="342" y="61" key="FileChooserDialogImpl" timestamp="1599415896233">
+    <state x="342" y="61" key="FileChooserDialogImpl" timestamp="1602253550507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="342" y="61" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599415896233" />
-    <state width="1515" height="171" key="GridCell.Tab.0.bottom" timestamp="1600452897757">
+    <state x="342" y="61" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602253550507" />
+    <state width="1515" height="171" key="GridCell.Tab.0.bottom" timestamp="1602257322900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600452897757" />
-    <state width="1515" height="171" key="GridCell.Tab.0.center" timestamp="1600452897757">
+    <state width="1515" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602257322900" />
+    <state width="1515" height="171" key="GridCell.Tab.0.center" timestamp="1602257322899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600452897757" />
-    <state width="1515" height="171" key="GridCell.Tab.0.left" timestamp="1600452897757">
+    <state width="1515" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602257322899" />
+    <state width="1515" height="171" key="GridCell.Tab.0.left" timestamp="1602257322899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600452897757" />
-    <state width="1515" height="171" key="GridCell.Tab.0.right" timestamp="1600452897757">
+    <state width="1515" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602257322899" />
+    <state width="1515" height="171" key="GridCell.Tab.0.right" timestamp="1602257322899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600452897757" />
+    <state width="1515" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602257322899" />
     <state width="1515" height="286" key="GridCell.Tab.1.bottom" timestamp="1599501535027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -332,18 +342,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="286" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599501535027" />
-    <state x="70" y="0" key="SettingsEditor" timestamp="1599811644097">
+    <state x="70" y="0" key="SettingsEditor" timestamp="1601795105421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="70" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599811644097" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599670774922">
+    <state x="70" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601795105421" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600453045783">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599670774922" />
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599647568411">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600453045783" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600452925360">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1599647568411" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1600452925360" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600446142325">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
