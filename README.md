@@ -1,15 +1,41 @@
 # Boat-Rush
 
 ## Project Overview
-This is 2D game made with python library named Pygame. To learn more functionality of programming language like python. In this game there is one boat which has to reach another place with goods. This boat has to face obstacles like burg, shark, another boats, and many other fishes. This is infinite rush game. You also given Realtime score.
+This is 2D game made with python library named Pygame. In this game there is a boat which has to transport goods to seashore. This boat has to face obstacles like burg, shark, another boats, and many other ships. This is infinite rush game. You are also given Realtime score.
+This game is made using various python libraries like pygame. NumPy, random, time and also object-oriented.
 
-## Problem and Solution Statement
-Player of the game has to transport the goods from one place to another place. In this game there is many obstacles that you have to clear to reach to your location. As being an infinite run game, you only have to just clear the obstacles and score more in your score board. The Technology used in this game is Python, library named pygame. The Game is made with GUI. You can play it by running python script.
+## Benchmark
+This game provides you features of scoreboard. This is score refers to the distance you covered in journey. By this game you can have ideas of boat simulations in real life with different types of hurdles. This game provides us the basic use of the python library named Pygame. By using this library, you can have chance to learn more about programming with python.
 
-## Benchmark (How this solution is better? compare)
-This game provides you features of scoreboard. This is score refers to the distance you covered in journey. By this game you can have ideas of boat simulations in real life with different types of hurdles. This game provides us the basic use of the python library named Pygame. By using this library you can have chance to learn more about programming with python.
+## Libraries and Technical Info.
+Pygame: Pygame is a set of Python modules designed for writing video games. Pygame adds functionality on top of the excellent SDL library. This allows you to create fully featured games and multimedia programs in the python language.
+NumPy: NumPy is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more.
+Random: This module implements pseudo-random number generators for various distributions.
+Time: This module provides various time-related functions.
+Object-Oriented python: Object-oriented programming fosters reusability. The modular approach used in object-oriented programming results in highly maintainable code. In object-oriented programming, every class has a specific task.
 
-## Implementation strategy
-This game is made with pygame and provides the more functionality in future like changing boats, new colors, new themes, new levels, new appearance, sounds, and more obstacles. We also can develop artificial intelligence for Obstacles and functionality in boats there is new levels, and new UI for better experience.
+## Features included in this project
+In this pygame we have so many features like:
+*	Object-oriented Python which gives us functionality of code reusability
+*	Waves of Water
+*	Speed of boat with respect to time
+*	Time taken by player
+*	Obstacles like:
+    -	Shark
+    -	Rock
+    -  	Buoy
+    -  	Other boat & Ships
+    -	Color of Sea is changes 
+
+## How to run this game in your PC.
+This is simple python project made using pygame
+You need to have install pygame in your python environment
+- pip install pygame
+- pip install numpy
+
+Then open project in your pycharm and run with python interpreter in that.
+User have to run main.py file.
+Virtual environment is not required here. :)
+
 
 *thank you*

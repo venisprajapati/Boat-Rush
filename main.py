@@ -136,7 +136,7 @@ def game_over():
     screen.blit(final_time_text, (308, 365))
 
 
-FPS = 60  # frames per second setting
+FPS = 200  # frames per second setting
 fpsClock = pygame.time.Clock()
 
 # Game is running or not
