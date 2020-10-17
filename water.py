@@ -33,7 +33,7 @@ class Water:
 
         self.W_wave_X = (np.vstack([self.wave_tmp_X] * self.wave_len)).astype('f')
         self.W_wave_X_copy = np.copy(self.W_wave_X)
-        
+
         self.W_wave_Y = ((np.vstack([self.wave_tmp_Y] * self.wave_wid)).astype('f')).T
         self.W_wave_Y_copy = np.copy(self.W_wave_Y)
 

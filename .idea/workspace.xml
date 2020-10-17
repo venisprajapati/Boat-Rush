@@ -23,9 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4b62260-0155-48c0-92d2-e65a27fb57f9" name="Default Changelist" comment="updated the Screen-shots and README.md - 2 in pygame boat-rush # 13.">
-      <change afterPath="$PROJECT_DIR$/Video Recording/19IT121_IT253_Boat-Rush-Review-1.mkv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crisp_Ocean_Waves.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Icy Game Over.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shotgun_Blast.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flag_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/water.py" beforeDir="false" afterPath="$PROJECT_DIR$/water.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Freecodecamp.org/Pygame/space-ship" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="kite.configurable" />
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -278,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602265640560</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="updated the final Screen-shots and recording of video - 3 in pygame boat-rush # 14.">
+      <created>1602267161120</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602267161120</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -320,7 +331,8 @@
     <MESSAGE value="updated the changing of sea color in pygame boat-rush # 11." />
     <MESSAGE value="updated the Screen-shots and README.md in pygame boat-rush # 12." />
     <MESSAGE value="updated the Screen-shots and README.md - 2 in pygame boat-rush # 13." />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the Screen-shots and README.md - 2 in pygame boat-rush # 13." />
+    <MESSAGE value="updated the final Screen-shots and recording of video - 3 in pygame boat-rush # 14." />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the final Screen-shots and recording of video - 3 in pygame boat-rush # 14." />
   </component>
   <component name="WindowStateProjectService">
     <state x="508" y="236" key="#Notifications" timestamp="1600453077610">
@@ -331,58 +343,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1600449217256" />
-    <state x="342" y="61" key="FileChooserDialogImpl" timestamp="1602264948062">
+    <state x="342" y="61" key="FileChooserDialogImpl" timestamp="1602769549595">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="342" y="61" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602264948062" />
-    <state width="1515" height="275" key="GridCell.Tab.0.bottom" timestamp="1602266664734">
+    <state x="342" y="61" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602769549595" />
+    <state width="1515" height="275" key="GridCell.Tab.0.bottom" timestamp="1602954313902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="275" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602266664734" />
-    <state width="1515" height="275" key="GridCell.Tab.0.center" timestamp="1602266664734">
+    <state width="1515" height="275" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602954313902" />
+    <state width="1515" height="275" key="GridCell.Tab.0.center" timestamp="1602954313902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="275" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602266664734" />
-    <state width="1515" height="275" key="GridCell.Tab.0.left" timestamp="1602266664734">
+    <state width="1515" height="275" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602954313902" />
+    <state width="1515" height="275" key="GridCell.Tab.0.left" timestamp="1602954313902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="275" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602266664734" />
-    <state width="1515" height="275" key="GridCell.Tab.0.right" timestamp="1602266664734">
+    <state width="1515" height="275" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602954313902" />
+    <state width="1515" height="275" key="GridCell.Tab.0.right" timestamp="1602954313902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="275" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602266664734" />
-    <state width="1515" height="286" key="GridCell.Tab.1.bottom" timestamp="1599501535027">
+    <state width="1515" height="275" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602954313902" />
+    <state width="1515" height="286" key="GridCell.Tab.1.bottom" timestamp="1602784956862">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="286" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599501535027" />
-    <state width="1515" height="286" key="GridCell.Tab.1.center" timestamp="1599501535027">
+    <state width="1515" height="286" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602784956862" />
+    <state width="1515" height="286" key="GridCell.Tab.1.center" timestamp="1602784956862">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="286" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599501535027" />
-    <state width="1515" height="286" key="GridCell.Tab.1.left" timestamp="1599501535027">
+    <state width="1515" height="286" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602784956862" />
+    <state width="1515" height="286" key="GridCell.Tab.1.left" timestamp="1602784956862">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="286" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599501535027" />
-    <state width="1515" height="286" key="GridCell.Tab.1.right" timestamp="1599501535027">
+    <state width="1515" height="286" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602784956862" />
+    <state width="1515" height="286" key="GridCell.Tab.1.right" timestamp="1602784956862">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="286" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599501535027" />
-    <state x="70" y="0" key="SettingsEditor" timestamp="1601795105421">
+    <state width="1515" height="286" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602784956862" />
+    <state x="622" y="115" key="RollbackChangesDialog" timestamp="1602873490735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="70" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601795105421" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602265641734">
+    <state x="622" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602873490735" />
+    <state x="70" y="0" key="SettingsEditor" timestamp="1602919765105">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602265641734" />
+    <state x="70" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602919765105" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602267162414">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602267162414" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600452925360">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1600452925360" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600446142325">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602870930574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600446142325" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602870930574" />
     <state x="491" y="324" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1599393231219">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
