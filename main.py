@@ -225,7 +225,7 @@ while running:  # running infinite while loop
     minutes = int(ticks / 60000 % 24)
 
     # Game completed
-    if (minutes >= 1) or (seconds >= 20):
+    if (minutes >= 1) or (seconds >= 59):
         if event.type == pygame.MOUSEBUTTONDOWN:
             if 330 <= mouse[0] <= 430 and 420 <= mouse[1] <= 470:
                 running = False

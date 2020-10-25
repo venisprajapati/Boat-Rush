@@ -48,7 +48,10 @@ Game run - 1
 Game run - 2
     ![](https://github.com/venisprajapati/Boat-Rush/blob/master/Screen-shots/game-2.png?raw=true)
 
+Game Finish
+    ![](https://github.com/venisprajapati/Boat-Rush/blob/master/Screen-shots/finish_game-1.png?raw=true)
+    
 Game over
-    ![](https://github.com/venisprajapati/Boat-Rush/blob/master/Screen-shots/game-over-1.PNG?raw=true)
+    ![](https://github.com/venisprajapati/Boat-Rush/blob/master/Screen-shots/game-over-2.PNG?raw=true)
 
 *thank you*
