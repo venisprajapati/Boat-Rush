@@ -1,5 +1,7 @@
 # Boat-Rush
 
+author: @venisprajapati
+
 ## Project Overview
 
 This is 2D game made with python library named Pygame. In this game there is a boat which has to transport goods to seashore. This boat has to face obstacles like burg, shark, another boats, and many other ships. This is infinite rush game. You are also given Realtime score.
