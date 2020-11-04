@@ -22,11 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b62260-0155-48c0-92d2-e65a27fb57f9" name="Default Changelist" comment="updated the exit mode in pygame boat-rush # 14.">
-      <change afterPath="$PROJECT_DIR$/Screen-shots/finish_game-1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screen-shots/game-over-2.PNG" afterDir="false" />
+    <list default="true" id="a4b62260-0155-48c0-92d2-e65a27fb57f9" name="Default Changelist" comment="updated the README.md in pygame boat-rush #2  #15.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -293,7 +291,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602954360935</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="updated the README.md in pygame boat-rush # 15.">
+      <created>1603606792842</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603606792842</updated>
+    </task>
+    <task id="LOCAL-00020" summary="updated the README.md in pygame boat-rush #2  #15.">
+      <created>1603606896667</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1603606896667</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -337,7 +349,9 @@
     <MESSAGE value="updated the Screen-shots and README.md - 2 in pygame boat-rush # 13." />
     <MESSAGE value="updated the final Screen-shots and recording of video - 3 in pygame boat-rush # 14." />
     <MESSAGE value="updated the exit mode in pygame boat-rush # 14." />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the exit mode in pygame boat-rush # 14." />
+    <MESSAGE value="updated the README.md in pygame boat-rush # 15." />
+    <MESSAGE value="updated the README.md in pygame boat-rush #2  #15." />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the README.md in pygame boat-rush #2  #15." />
   </component>
   <component name="WindowStateProjectService">
     <state x="508" y="236" key="#Notifications" timestamp="1600453077610">
@@ -352,22 +366,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="342" y="61" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602769549595" />
-    <state width="1515" height="275" key="GridCell.Tab.0.bottom" timestamp="1603184926109">
+    <state width="1515" height="275" key="GridCell.Tab.0.bottom" timestamp="1604509604137">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="275" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603184926109" />
-    <state width="1515" height="275" key="GridCell.Tab.0.center" timestamp="1603184926108">
+    <state width="1515" height="275" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604509604137" />
+    <state width="1515" height="275" key="GridCell.Tab.0.center" timestamp="1604509604137">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="275" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603184926108" />
-    <state width="1515" height="275" key="GridCell.Tab.0.left" timestamp="1603184926108">
+    <state width="1515" height="275" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604509604137" />
+    <state width="1515" height="275" key="GridCell.Tab.0.left" timestamp="1604509604136">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="275" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603184926108" />
-    <state width="1515" height="275" key="GridCell.Tab.0.right" timestamp="1603184926109">
+    <state width="1515" height="275" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604509604136" />
+    <state width="1515" height="275" key="GridCell.Tab.0.right" timestamp="1604509604137">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="275" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603184926109" />
+    <state width="1515" height="275" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604509604137" />
     <state width="1515" height="286" key="GridCell.Tab.1.bottom" timestamp="1602784956862">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -392,10 +406,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="70" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602919765105" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602954362961">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603606901767">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602954362961" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603606901767" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600452925360">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
