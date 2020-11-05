@@ -1,6 +1,6 @@
 """
 The main Boat-Rush game
-author:@venisprajapati
+author: @venisprajapati
 """
 
 import pygame
