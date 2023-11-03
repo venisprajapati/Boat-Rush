@@ -49,12 +49,12 @@ In this pygame we have so many features like:
 
 ## How to run this game in your PC.
 
-Being a game ready project, user just required installed python interpreter with version 3.7+ in PC.
+Being a game ready project, user just required installed python interpreter with version 3.8.6 in PC.
 
 You need to install pygame and numpy library in your python environment by following commands 
 ```
-pip install pygame
-pip install numpy
+pip install pygame==1.9.6
+pip install numpy==1.19.2
 ```
 Now open project in your pycharm or any IDE and run with installed python interpreter in that.
 User have to run main.py file.
@@ -77,9 +77,5 @@ Game Finish
 Game over
 
    ![Game over](https://github.com/venisprajapati/Boat-Rush/blob/master/Screen-shots/game-over-2.PNG?raw=true)
-
-### Another projects
-
-<a href = "https://github.com/venisprajapati/space-ship" > Space-ship game </a>
 
 *thank you*
